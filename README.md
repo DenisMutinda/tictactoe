@@ -1,4 +1,5 @@
 Starting out.
+Main branch houses latest and most useful type in whatever language has the most advanced version.
 Branches 1 - 5 Python. 
 Branches 6 - 10 C.
 
