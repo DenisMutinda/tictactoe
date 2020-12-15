@@ -73,7 +73,10 @@ if __name__ == '__main__':
     # check whether a player has won
     wonState = False
     # Start the game by asking for player 1 to take a turn
-    turn = input("Player 1, choose between X and O: ")
+    while True:
+        turn = input("Player 1, choose between X and O: ")
+        if (turn == 'X' or turn == 'O'):
+            break
 
     while not wonState:
         # Draw the board they playing on
